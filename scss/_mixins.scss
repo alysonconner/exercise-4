@@ -1,0 +1,35 @@
+// Mixins
+
+@mixin ease($transition-property, $transition-time, $method) {
+    -webkit-transition: $transition-property $transition-time $method;
+    -moz-transition: $transition-property $transition-time $method;
+    -ms-transition: $transition-property $transition-time $method;
+    -o-transition: $transition-property $transition-time $method;
+    transition: $transition-property $transition-time $method;
+}
+
+@mixin stats {
+	width: 32%;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.5em;
+  font-family: $font-lato;
+  border-right: solid 1px $med-grey;
+}
+
+@mixin h3 {
+	font-family: $font-lato;
+  font-size: 1.2em;
+  margin-bottom: .5em;
+}
+
+@mixin button {
+	margin: 1.5em auto 0 auto;
+  background-color: $darker-blue;
+  width: 150px;
+  color: white;
+  font-family: $font-lato;
+  text-align: center;
+  padding: .5em;
+  border-radius: 5px;
+}

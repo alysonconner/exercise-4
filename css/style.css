@@ -87,20 +87,18 @@ header {
   font-weight: 300;
   border: 8px solid #5cc0ff;
   border-radius: 50%;
-  transition-property: all;
-  transition-duration: 0.5s;
-  transition-timing-function: ease; }
+  transition: all 0.5s ease; }
 
-/* line 81, /Users/alysonconner/Documents/GD6/webdev/week4/exercise-4/scss/components/main */
+/* line 80, /Users/alysonconner/Documents/GD6/webdev/week4/exercise-4/scss/components/main */
 .data {
   margin-top: 0.6em;
   color: #81878b; }
 
-/* line 84, /Users/alysonconner/Documents/GD6/webdev/week4/exercise-4/scss/components/main */
+/* line 83, /Users/alysonconner/Documents/GD6/webdev/week4/exercise-4/scss/components/main */
 .data ul {
   padding-left: 0; }
 
-/* line 87, /Users/alysonconner/Documents/GD6/webdev/week4/exercise-4/scss/components/main */
+/* line 86, /Users/alysonconner/Documents/GD6/webdev/week4/exercise-4/scss/components/main */
 .data li {
   width: 32%;
   text-align: center;
@@ -109,11 +107,11 @@ header {
   font-family: 'Lato';
   border-right: solid 1px #bdc3c7; }
 
-/* line 94, /Users/alysonconner/Documents/GD6/webdev/week4/exercise-4/scss/components/main */
+/* line 89, /Users/alysonconner/Documents/GD6/webdev/week4/exercise-4/scss/components/main */
 .data li:last-child {
   border: none; }
 
-/* line 96, /Users/alysonconner/Documents/GD6/webdev/week4/exercise-4/scss/components/main */
+/* line 91, /Users/alysonconner/Documents/GD6/webdev/week4/exercise-4/scss/components/main */
 .data li span {
   display: block;
   text-transform: uppercase;
@@ -122,7 +120,7 @@ header {
   margin-top: 0.6em;
   font-weight: 700; }
 
-/* line 105, /Users/alysonconner/Documents/GD6/webdev/week4/exercise-4/scss/components/main */
+/* line 100, /Users/alysonconner/Documents/GD6/webdev/week4/exercise-4/scss/components/main */
 .desc {
   position: absolute;
   top: 0;
@@ -133,23 +131,21 @@ header {
   color: white;
   text-align: center;
   opacity: 0;
-  transition-property: all;
-  transition-duration: 0.3s;
-  transition-timing-function: ease-in; }
+  transition: all 0.5s ease-in; }
 
-/* line 118, /Users/alysonconner/Documents/GD6/webdev/week4/exercise-4/scss/components/main */
+/* line 113, /Users/alysonconner/Documents/GD6/webdev/week4/exercise-4/scss/components/main */
 .desc h3 {
   font-family: 'Lato';
   font-size: 1.2em;
   margin-bottom: 0.5em; }
 
-/* line 122, /Users/alysonconner/Documents/GD6/webdev/week4/exercise-4/scss/components/main */
+/* line 116, /Users/alysonconner/Documents/GD6/webdev/week4/exercise-4/scss/components/main */
 .desc p {
   font-size: 0.9em;
   font-family: 'Quicksand';
   line-height: 1.5em; }
 
-/* line 127, /Users/alysonconner/Documents/GD6/webdev/week4/exercise-4/scss/components/main */
+/* line 121, /Users/alysonconner/Documents/GD6/webdev/week4/exercise-4/scss/components/main */
 .follow {
   margin: 1.5em auto 0 auto;
   background-color: #2589cc;
@@ -159,11 +155,9 @@ header {
   text-align: center;
   padding: 0.5em;
   border-radius: 5px;
-  transition-property: all;
-  transition-duration: 0.3s;
-  transition-timing-function: ease; }
+  transition: all 0.5s ease; }
 
-/* line 139, /Users/alysonconner/Documents/GD6/webdev/week4/exercise-4/scss/components/main */
+/* line 125, /Users/alysonconner/Documents/GD6/webdev/week4/exercise-4/scss/components/main */
 .follow:hover {
   background-color: #167abd;
   cursor: pointer; }

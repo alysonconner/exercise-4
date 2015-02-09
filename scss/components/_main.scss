@@ -74,9 +74,8 @@ header {
   font-weight: 300;
   border: 8px solid $med-blue;
   border-radius: 50%;
-  transition-property: all;
-  transition-duration: 0.5s;
-  transition-timing-function: ease; }
+  @include ease(all, 0.5s, ease);
+ }
 
 .data {
   margin-top: .6em;
@@ -85,12 +84,8 @@ header {
     padding-left: 0;
   }
   .data li {
-    width: 32%;
-    text-align: center;
-    display: inline-block;
-    font-size: 1.5em;
-    font-family: $font-lato;
-    border-right: solid 1px $med-grey; }
+    @include stats();
+    }
     .data li:last-child {
       border: none; }
     .data li span {
@@ -112,30 +107,22 @@ header {
   color: white;
   text-align: center;
   opacity: 0;
-  transition-property: all;
-  transition-duration: 0.3s;
-  transition-timing-function: ease-in; }
+  @include ease(all, .5s, ease-in);
+}
+
   .desc h3 {
-    font-family: $font-lato;
-    font-size: 1.2em;
-    margin-bottom: .5em; }
+    @include h3;
+ }
   .desc p {
     font-size: .9em;
     font-family: $font-quicksand;
     line-height: 1.5em; }
 
 .follow {
-  margin: 1.5em auto 0 auto;
-  background-color: $darker-blue;
-  width: 150px;
-  color: white;
-  font-family: $font-lato;
-  text-align: center;
-  padding: .5em;
-  border-radius: 5px;
-  transition-property: all;
-  transition-duration: 0.3s;
-  transition-timing-function: ease; }
-  .follow:hover {
-    background-color: $hover-blue;
-    cursor: pointer; }
+  @include button;
+  @include ease(all, .5s, ease);
+}
+.follow:hover {
+  background-color: $hover-blue;
+  cursor: pointer;
+}
